@@ -418,15 +418,20 @@ header .mobile-nav {
   padding: 16px;
   border: 2px solid #fff;
   border-radius: 12px;
-  height: 450px;
+  height: auto;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project .container .content .projects .card img {
+  height: 200px;
   width: 100%;
-  height: 50%;
+  object-fit: cover;
 }
 
 .project .container .content .projects .card .description {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -450,6 +455,7 @@ header .mobile-nav {
   justify-content: space-between;
   align-items: center;
   margin-top: 12px;
+  flex: 1;
 }
 
 .project .container .content .projects .card .description .action button {
@@ -457,13 +463,14 @@ header .mobile-nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12px;
+  padding: 10px;
   border: 2px solid #fff;
   border-radius: 12px;
   background: transparent;
   color: #fff;
-  width: 25%;
+  width: 40%;
   transition: 0.3s linear;
+  font-size: 14px;
 }
 
 .project .container .content .projects .card .description .action button:hover {
