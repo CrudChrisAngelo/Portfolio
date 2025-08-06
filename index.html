@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Icon -->
+    <link rel="icon" href="assets/logo-profile.png" />
+
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Chris Angelo Crud-Portfolio</title>
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <style>
+    .owl-carousel {
+      margin-top: 100px;
+    }
+  </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/logo-profile.png" alt="logo" />
+        <a href="/">Chris</a>
+      </div>
+
+      <nav>
+        <a href="#">| Home |</a>
+        <a href="#about">| About |</a>
+        <a href="#skill">| Skill |</a>
+        <a href="#project">| Projects |</a>
+        <a href="#certificates">| Certificates |</a>
+        <a href="#contact">| Contact |</a>
+      </nav>
+
+      <div>
+       
+      </div>
+
+      <div id="menu" class="hamburger-menu">
+        <svg
+          width="35px"
+          height="35px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 18L20 18"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 12L20 12"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 6L20 6"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </div>
+
+      <!-- Mobile Nav -->
+      <div id="nav-mobile" class="mobile-nav">
+        <div id="close-mobile" class="close">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: none;
+                  stroke: #ffffff;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 2px;
+                }
+              </style>
+            </defs>
+
+            <title />
+
+            <g id="cross">
+              <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+
+              <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+            </g>
+          </svg>
+        </div>
+        <ul>
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skill">Skill</a></li>
+          <li><a class="nav-link" href="#project">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+  <div class="container">
+    <div class="content">
+      <svg viewBox="0 0 1500 300" data-aos="fade-down">
+        <text x="50%" y="50%" text-anchor="middle">Chris Angelo Crud</text>
+      </svg>
+      <h1 data-aos="zoom-in-up">
+        <span id="typewriter" class="typewriter-text">Computer Engineer</span>
+      </h1>
+      <a href="assets/Crud,ChrisAngeloN-Resume.pdf" download class="resume-download" data-aos="zoom-out">
+        <span>Download my CV</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            About Me
+          </h1>
+          <div class="about-me">
+            <div data-aos="zoom-out-right" data-aos-delay="300" class="profile">
+              <div class="image-box">
+                <img src="assets/logo-profile.png" alt="profile" />
+              </div>
+            </div>
+
+            <div
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+              class="description"
+            >
+              <div class="name-role">
+                <h1>Chris Angelo</h1>
+                <div class="role">
+                  <h2>"Gelo"
+                  </h2>
+                </div>
+              </div>
+              <p>
+                Hey, I’m Chris Angelo, a 22-year-old Computer Engineering graduate from Pampanga State University — formerly known as Don Honorio Ventura State University (DHVSU) — based in San Matias, Sta. Rita, Pampanga. I’ve always been drawn to technology — not just how it works, but how it can change the way we live, think, and create. That curiosity naturally led me to software development, where I feel most at home. <br />
+                <br />
+                I’m most comfortable coding in Python, but I’m always looking to expand my skills. C++ is next on my list since I didn’t get much hands-on experience with it in school, and I’m eager to see what I can build with it. I love challenging myself with new tools and languages — not just to learn, but to solve real problems and bring ideas to life.<br />
+                <br />
+                Right now, I’m focused on building experience, gaining knowledge, and most importantly, enjoying the journey. I’m not rushing into anything — I want to stay passionate, stay curious, and keep doing work that feels meaningful and exciting.<br />
+                <br />
+                When I’m not coding or geeking out over tech stuff, I usually spend my time watching random YouTube videos, working out, or just taking a break to clear my head. I try to keep things balanced — learn hard, chill harder.
+              </p>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill" class="skill">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Skills
+          </h1>
+
+          <div class="skills" data-aos-delay="500">
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/python.svg" alt="typescript" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/tensorflow.svg" alt="next" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/html5.svg" alt="html" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/css3.svg" alt="css" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/javascript.svg" alt="javascript" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/react.svg" alt="react" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/flutter.svg" alt="alpinejs" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/mysql.svg" alt="mysql" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/java.svg" alt="figma" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/github.svg" alt="github" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+    <section id="project" class="project">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Projects
+          </h1>
+
+          
+
+          <div class="projects">
+
+              <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+              <img src="assets/projects/KindBites.png" alt="project" />
+
+              <div class="description">
+                <h1>Kind Bites WebApp</h1>
+                <p>
+                  Online Ordering Web App
+                  Kind Bites is a simple, user-friendly ordering website for a small treat shop offering cookies, donuts, and drinks. Built with HTML, CSS, and JavaScript, it allows customers to view items, choose options like toppings or sizes, and place orders online.
+                </p>
+                <div class="action">
+                  <button onclick="window.open('https://kindbites.netlify.app/', '_blank')">Visit</button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="assets/projects/pikes.png" alt="project" />
+
+              <div class="description">
+                <h1>Pikes Auto Garage Website</h1>
+                <p>
+                  This project was developed for my client, Rico Narciso, to enhance the operations of his auto garage shop
+                </p>
+                <div class="action">
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+              <img src="assets/projects/fundcollectionandloantrackingsystem.png" alt="project" />
+
+              <div class="description">
+                <h1>Fund Collection and Loan Tracking System</h1>
+                <p>
+                  This project was developed for the united vendors association in Santa Rita Public Market.
+                </p>
+                <div class="action">
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+              <img src="assets/projects/DSP1.jpg" alt="project" />
+
+              <div class="description">
+                <h1>Digital Signal Processing</h1>
+                <p>
+                  This application features ADC conversion, image and audio processing, a moving average filter, and filter conversion capabilities.
+                </p>
+                <div class="action">
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="assets/projects/Whackawally.png" alt="project" />
+
+              <div class="description">
+                <h1>Mobile Game (Whack a Mole)</h1>
+                <p>
+                  This mobile game is a twist on the classic whack-a-mole, featuring a "Wally Bayola" mode.
+                </p>
+                <div class="action">
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+              <img src="assets/project.png" alt="project" />
+
+              <div class="description">
+                <h1>aNAILytics (Medical Device-Research)</h1>
+                <p>
+                  Developed a hardware-based medical imaging device equipped with a high-resolution camera for capturing and analyzing fingernail images. Integrated onboard image processing to extract features like color, texture, and shape, and applied advanced techniques to enhance diagnostic quality. Designed and trained CNN models for disease classification based on extracted features.
+                </p>
+                <div class="action">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+  <div class="container">
+    <div class="content">
+      <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+        Certificates
+      </h1>
+
+      <form
+            data-aos="zoom-in-down"
+            data-aos-delay="300"
+            class="contact-form"
+          >
+          
+      <div class="owl-carousel certificates-slider">
+        <div class="item">
+          <img src="assets/certificates/cert1.jpg">
+        </div>
+        <div class="item">
+          <img src="assets/certificates/cert2.jpg">
+        </div>
+        <div class="item">
+          <img src="assets/certificates/cert3.jpg">
+        </div>
+        <div class="item">
+          <img src="assets/certificates/cert4.jpg">
+        </div>
+        <div class="item">
+          <img src="assets/certificates/cert5.jpg">
+        </div>
+        <div class="item">
+          <img src="assets/certificates/cert6.jpg">
+        </div>
+        <div class="item">
+          <img src="assets/certificates/cert7.jpg">
+        </div>
+        <div class="item">
+          <img src="assets/certificates/cert8.jpg">
+        </div>
+        <div class="item">
+          <img src="assets/certificates/cert9.jpg">
+        </div>
+        <div class="item">
+          <img src="assets/certificates/cert10.jpg">
+        </div>
+        <div class="item">
+          <img src="assets/certificates/cert11.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+  </form>
+</section>
+
+     <section id="contact" class="contact">
+        <div class="container">
+            <div class="content">
+                <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+                    Contact
+                </h1>
+
+                <form
+                    id="contact-form"
+                    data-aos="zoom-in-down"
+                    data-aos-delay="300"
+                    class="contact-form"
+                >
+                    <div class="input">
+                        <input type="text" name="from_name" placeholder="Name..." required />
+                        <input type="email" name="from_email" placeholder="Email..." required />
+                        <input type="tel" name="phone" placeholder="Phone..." />
+                        <input type="text" name="subject" placeholder="Subject..." required />
+                    </div>
+                    <textarea name="message" placeholder="Message..." required></textarea>
+                    
+                    <button type="submit" id="submit-btn" style="
+                        cursor: pointer;
+                        padding: 15px 30px;
+                        background: linear-gradient(45deg, #8B00FF, #FF00FF);
+                        border: none;
+                        border-radius: 10px;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: bold;
+                        transition: all 0.3s ease;
+                        box-shadow: 0 0 20px rgba(139, 0, 255, 0.4);
+                        margin-top: 20px;
+                    ">
+                        Send Message
+                    </button>
+                    
+                    <!-- Status Message -->
+                    <div id="status-message" style="
+                        padding: 15px;
+                        border-radius: 8px;
+                        text-align: center;
+                        font-weight: bold;
+                        margin-top: 15px;
+                        display: none;
+                    "></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <div class="profile">
+          <div class="logo">
+            <img src="assets/logo-profile.png" alt="logo" />
+            <a href="">Chris</a>
+          </div>
+
+          <!-- Short About -->
+          <p>
+            I'm Chris Angelo, a 22-year-old Computer Engineering graduate from Pampanga State University. I enjoy learning about software development and AI, and I'm currently building my skills one step at a time.
+          </p>
+
+          <p>📞 +63 930 273 9636</p>
+
+
+
+          <!-- Social Media -->
+          <div class="social-media-container">
+          <div class="social-media">
+            <a href="https://www.instagram.com/chrsanc_/" target="_blank" rel="noopener noreferrer">
+              <box-icon color="#fff" type="logo" name="instagram"></box-icon>
+            </a>
+          </div>
+          <div class="social-media">
+            <a href="https://www.facebook.com/AngeloCrud" target="_blank" rel="noopener noreferrer">
+              <box-icon color="#fff" type="logo" name="facebook-circle"></box-icon>
+            </a>
+          </div>
+          <div class="social-media">
+            <a href="https://github.com/CrudChrisAngelo/" target="_blank" rel="noopener noreferrer">
+              <box-icon color="#fff" type="logo" name="github"></box-icon>
+            </a>
+          </div>
+          
+        </div>
+        </div>
+
+        <div class="link-container">
+          <div class="information">
+            <h1>Skill</h1>
+            <ul>
+              <li>
+                <a href="#">Programming</a>
+              </li>
+              <li>
+                <a href="#">Microsoft Tools </a>
+              </li>
+              <li>
+                <a href="#">Adaptibility & Quick Learning </a>
+              </li>
+              <li>
+                <a href="#">Interpersonal Skills </a>
+              </li>
+              <li>
+                <a href="#">Time Management</a>
+              </li>
+              <li>
+                <a href="#">Computer System Servicing </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resource">
+            <h1>Technology</h1>
+            <ul>
+              <li>
+                <a href="#">PyCharm</a>
+              </li>
+              <li>
+                <a href="#">VSCode</a>
+              </li>
+              <li>
+                <a href="#">Android Studio</a>
+              </li>
+              <li>
+                <a href="#">NetBeans</a>
+              </li>
+              <li>
+                <a href="#">Github</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="navigation">
+            <h1>Navigation</h1>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Skill</a>
+              </li>
+              <li>
+                <a href="#">Projects</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+ <script>
+
+        const EMAILJS_PUBLIC_KEY = "2FNh1-X-Xybpu-iJZ";
+        const EMAILJS_SERVICE_ID = "service_dvt20xq";  
+        const EMAILJS_TEMPLATE_ID = "template_akbsf41";
+
+        // Initialize EmailJS
+        emailjs.init(EMAILJS_PUBLIC_KEY);
+        
+        // Get form elements
+        const contactForm = document.getElementById('contact-form');
+        const submitBtn = document.getElementById('submit-btn');
+        const statusMessage = document.getElementById('status-message');
+        
+        // Handle form submission
+        contactForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+            submitBtn.style.opacity = '0.6';
+            hideStatusMessage();
+            
+            // Send email via EmailJS
+            emailjs.sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, contactForm)
+                .then(function(response) {
+                    console.log('✅ Email sent successfully!', response);
+                    showStatusMessage('Message sent successfully! I\'ll get back to you soon. 🚀', 'success');
+                    contactForm.reset(); // Clear the form
+                })
+                .catch(function(error) {
+                    console.error('❌ Failed to send email:', error);
+                    showStatusMessage('Oops! Failed to send message. Please try again or contact me directly. 😔', 'error');
+                })
+                .finally(function() {
+                    // Reset button state
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Send Message';
+                    submitBtn.style.opacity = '1';
+                });
+        });
+        
+        function showStatusMessage(message, type) {
+            statusMessage.textContent = message;
+            statusMessage.style.display = 'block';
+            
+            if (type === 'success') {
+                statusMessage.style.background = 'rgba(34, 197, 94, 0.2)';
+                statusMessage.style.border = '2px solid #22c55e';
+                statusMessage.style.color = '#22c55e';
+            } else {
+                statusMessage.style.background = 'rgba(239, 68, 68, 0.2)';
+                statusMessage.style.border = '2px solid #ef4444';
+                statusMessage.style.color = '#ef4444';
+            }
+            
+            // Auto-hide after 6 seconds
+            setTimeout(hideStatusMessage, 6000);
+        }
+        
+        function hideStatusMessage() {
+            statusMessage.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
